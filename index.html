@@ -10,7 +10,7 @@
   <meta property="og:title" content="Abdul Rahman – Portfolio & Resume" />
   <meta property="og:description" content="Senior Infrastructure Engineer (VMware, Horizon VDI, Cisco UCS/HyperFlex, Windows/AD, Linux, Azure/M365/Intune, Ansible)." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://your-domain.com" />
+  <meta property="og:url" content="https://abdulrahman4u1995.github.io/Abdul-Rahman-Portfolio/" />
   <meta property="og:image" content="https://your-domain.com/preview.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -29,7 +29,18 @@
     header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; position: sticky; top: 0; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: white; border-bottom: 2px solid var(--accent-2); z-index: 9; }
     header a { color: white; font-weight: 600; }
     .brand { display:flex; align-items:center; gap: 12px; }
-    .avatar { width: 50px; height: 50px; border-radius: 50%; border: 2px solid white; object-fit: cover; }
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 22px;
+    }
     .chip { display:inline-block; padding: 6px 12px; border-radius: 999px; background: var(--accent-2); color: white; font-weight:600; }
     .hero { display:grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items:center; padding: 48px 0; }
     .hero h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.1; margin: 12px 0; background: linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
@@ -51,7 +62,7 @@
 <body>
   <header class="container">
     <div class="brand">
-      <img class="avatar" src="avatar.jpg" alt="Abdul Rahman headshot"/>
+      <div class="avatar">🛠️</div>
       <div>
         <strong>Abdul Rahman</strong><br/>
         <span>Senior Infrastructure Engineer • Maidenhead, United Kingdom</span>
@@ -71,8 +82,8 @@
     <section class="hero" id="home">
       <div>
         <span class="chip">Open to opportunities</span>
-        <h1>Hi, I'm Abdul Rahman</h1>
-        <p class="sub">Over 8 years of hands‑on infrastructure experience across VMware vSphere & Horizon VDI, Cisco UCS/HyperFlex, Windows Server/Active Directory, Linux (RHEL), Azure/Azure AD, Microsoft 365/Intune, Nutanix, and Ansible. Proven at designing, deploying, upgrading, automating and troubleshooting enterprise environments at scale.</p>
+        <h1>Hi, I am Abdul Rahman</h1>
+        <p class="sub">Over 8 years of hands-on infrastructure experience across VMware vSphere & Horizon VDI, Cisco UCS/HyperFlex, Windows Server/Active Directory, Linux (RHEL), Azure, Microsoft 365/Intune, Nutanix, and Ansible. Proven at designing, deploying, upgrading, automating and troubleshooting enterprise environments at scale.</p>
         <div class="cta">
           <a class="btn" href="https://www.linkedin.com/in/abdulvmwaregeek4u" target="_blank">🔗 LinkedIn</a>
           <a class="btn" href="#contact">📩 Contact Me</a>
@@ -96,7 +107,7 @@
           <p class="sub">Maidenhead, United Kingdom</p>
           <ul>
             <li>Technology Owner and Compute & Storage Lead across UCSM, Cisco HyperFlex, VMware vSphere, Windows, Linux, and Active Directory.</li>
-            <li>End‑to‑end ownership for incident resolution, upgrades (minor/major), and infrastructure‑level changes in production and lab.</li>
+            <li>End-to-end ownership for incident resolution, upgrades (minor/major), and infrastructure-level changes in production and lab.</li>
             <li>Sole approver for testing changes in lab and implementing them in production environments.</li>
           </ul>
         </div>
@@ -112,7 +123,7 @@
           <h3>Technical Support Engineer – Anunta Technology, India <span class="sub">(Dec 2016 – Jun 2018)</span></h3>
           <ul>
             <li>Desktop/help desk support and daily monitoring of Microsoft/VMware servers using vCenter and ESXi 6.0/6.5.</li>
-            <li>Troubleshot escalations ensuring environment stability for enterprise clients; shared 24/7 on‑call for toll collection systems.</li>
+            <li>Troubleshot escalations ensuring environment stability for enterprise clients; shared 24/7 on-call for toll collection systems.</li>
           </ul>
         </div>
       </div>
@@ -160,29 +171,7 @@
     <section id="certifications">
       <h2>Certifications</h2>
       <div class="cards">
-        <div class="card"><strong>VMware Certified Professional – Desktop and Mobility (VCP‑DTM)</strong></div>
+        <div class="card"><strong>VMware Certified Professional – Desktop and Mobility (VCP-DTM)</strong></div>
         <div class="card"><strong>Microsoft Certified: Azure Administrator Associate</strong></div>
         <div class="card"><strong>MCSA: Windows Server 2016</strong></div>
         <div class="card"><strong>VMware vSphere 6.5 Foundations</strong></div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="cards">
-        <div class="card">
-          <p>Email: <a href="mailto:abdulrahman4u1995@gmail.com">abdulrahman4u1995@gmail.com</a></p>
-          <p>Phone: <a href="tel:+447587594158">+44 7587 594158</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/abdulvmwaregeek4u" target="_blank">linkedin.com/in/abdulvmwaregeek4u</a></p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="container">
-    <div>© <span id="year"></span> Abdul Rahman · Portfolio</div>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</body>
-</html>
