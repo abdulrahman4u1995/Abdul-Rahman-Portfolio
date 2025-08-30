@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abdul Rahman – Portfolio & Resume</title>
+  <meta name="description" content="Portfolio website for Abdul Rahman: experience, skills, certifications, and contact links." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Abdul Rahman – Portfolio & Resume" />
+  <meta property="og:description" content="Senior Infrastructure Engineer (VMware, Horizon VDI, Cisco UCS/HyperFlex, Windows/AD, Linux, Azure/M365/Intune, Ansible)." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.com" />
+  <meta property="og:image" content="https://your-domain.com/preview.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <style>
+    :root {
+      --bg: #0f172a; --fg: #f1f5f9; --muted: #94a3b8; --card: #1e293b; --accent: #3b82f6; --accent-2: #06b6d4;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f8fafc; --fg: #0f172a; --muted: #475569; --card: #ffffff; --accent: #2563eb; --accent-2: #0ea5e9; }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 24px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; position: sticky; top: 0; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: white; border-bottom: 2px solid var(--accent-2); z-index: 9; }
+    header a { color: white; font-weight: 600; }
+    .brand { display:flex; align-items:center; gap: 12px; }
+    .avatar { width: 50px; height: 50px; border-radius: 50%; border: 2px solid white; object-fit: cover; }
+    .chip { display:inline-block; padding: 6px 12px; border-radius: 999px; background: var(--accent-2); color: white; font-weight:600; }
+    .hero { display:grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items:center; padding: 48px 0; }
+    .hero h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.1; margin: 12px 0; background: linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .sub { color: var(--muted); }
+    .cta { display:flex; gap:12px; flex-wrap: wrap; margin-top: 20px; }
+    .btn { display:inline-flex; align-items:center; gap:10px; padding: 12px 18px; border-radius: 12px; border: none; background: var(--accent); color: white; font-weight: 700; transition: transform 0.2s; }
+    .btn:hover { transform: scale(1.05); background: var(--accent-2); }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: var(--card); border-radius: 16px; padding: 20px; box-shadow: 0 6px 12px rgba(0,0,0,0.3); }
+    section { padding: 36px 0; }
+    section h2 { font-size: 24px; margin: 0 0 12px 0; color: var(--accent); }
+    .timeline { border-left: 3px solid var(--accent); margin-left: 12px; padding-left: 16px; }
+    .tl-item { position: relative; margin: 18px 0; }
+    .tl-item::before { content: ""; position: absolute; left: -21px; top: 6px; width: 12px; height: 12px; background: var(--accent-2); border-radius: 50%; box-shadow: 0 0 0 3px var(--accent); }
+    footer { padding: 32px 0; text-align:center; color: var(--muted); background: var(--card); margin-top: 40px; border-top: 2px solid var(--accent-2); }
+    @media (max-width: 860px){ .hero { grid-template-columns: 1fr; } header nav { display:none; } }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <img class="avatar" src="avatar.jpg" alt="Abdul Rahman headshot"/>
+      <div>
+        <strong>Abdul Rahman</strong><br/>
+        <span>Senior Infrastructure Engineer • Maidenhead, United Kingdom</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <span class="chip">Open to opportunities</span>
+        <h1>Hi, I'm Abdul Rahman</h1>
+        <p class="sub">Over 8 years of hands‑on infrastructure experience across VMware vSphere & Horizon VDI, Cisco UCS/HyperFlex, Windows Server/Active Directory, Linux (RHEL), Azure/Azure AD, Microsoft 365/Intune, Nutanix, and Ansible. Proven at designing, deploying, upgrading, automating and troubleshooting enterprise environments at scale.</p>
+        <div class="cta">
+          <a class="btn" href="https://www.linkedin.com/in/abdulvmwaregeek4u" target="_blank">🔗 LinkedIn</a>
+          <a class="btn" href="#contact">📩 Contact Me</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Quick facts</h3>
+        <ul class="sub">
+          <li>Location: Maidenhead, United Kingdom (open to remote)</li>
+          <li>Work authorization: UK</li>
+          <li>Currently: Senior Infrastructure Engineer @ TCS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <h3>Senior Infrastructure Engineer – Tata Consultancy Services (TCS), UK <span class="sub">(Mar 2021 – Present)</span></h3>
+          <p class="sub">Maidenhead, United Kingdom</p>
+          <ul>
+            <li>Technology Owner and Compute & Storage Lead across UCSM, Cisco HyperFlex, VMware vSphere, Windows, Linux, and Active Directory.</li>
+            <li>End‑to‑end ownership for incident resolution, upgrades (minor/major), and infrastructure‑level changes in production and lab.</li>
+            <li>Sole approver for testing changes in lab and implementing them in production environments.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <h3>EUC Engineer – Cambay Consulting, India <span class="sub">(Jun 2018 – Mar 2021)</span></h3>
+          <ul>
+            <li>Focused on VMware Horizon View (Connection Servers, Instant Clones/UEM), App Volumes, and RDSH; optimized Blast/PCoIP protocols.</li>
+            <li>Moved from Support (troubleshooting VDI connectivity/performance/app compatibility) to TECH COE (implementation/configuration).</li>
+            <li>Gained experience with Microsoft 365 and Azure Virtual Desktop (AVD).</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <h3>Technical Support Engineer – Anunta Technology, India <span class="sub">(Dec 2016 – Jun 2018)</span></h3>
+          <ul>
+            <li>Desktop/help desk support and daily monitoring of Microsoft/VMware servers using vCenter and ESXi 6.0/6.5.</li>
+            <li>Troubleshot escalations ensuring environment stability for enterprise clients; shared 24/7 on‑call for toll collection systems.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Infrastructure Upgrades & Automation</h3>
+          <p class="sub">Representative work across vSphere upgrades, HyperFlex HXDP updates, and Ansible playbooks for VM lifecycle, OS patching, and configuration management.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="cards">
+        <div class="chip">VMware vSphere</div>
+        <div class="chip">VMware Horizon VDI</div>
+        <div class="chip">Cisco UCS</div>
+        <div class="chip">Cisco HyperFlex</div>
+        <div class="chip">Windows Server</div>
+        <div class="chip">Active Directory</div>
+        <div class="chip">Linux (RHEL)</div>
+        <div class="chip">Azure / Azure AD</div>
+        <div class="chip">Microsoft 365</div>
+        <div class="chip">Intune</div>
+        <div class="chip">Ansible</div>
+        <div class="chip">PowerShell</div>
+        <div class="chip">Nutanix</div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="cards">
+        <div class="card">
+          <strong>B.Tech in Computer Science</strong>
+          <p class="sub">Biju Patnaik University of Technology (BPUT), India</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="cards">
+        <div class="card"><strong>VMware Certified Professional – Desktop and Mobility (VCP‑DTM)</strong></div>
+        <div class="card"><strong>Microsoft Certified: Azure Administrator Associate</strong></div>
+        <div class="card"><strong>MCSA: Windows Server 2016</strong></div>
+        <div class="card"><strong>VMware vSphere 6.5 Foundations</strong></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="cards">
+        <div class="card">
+          <p>Email: <a href="mailto:abdulrahman4u1995@gmail.com">abdulrahman4u1995@gmail.com</a></p>
+          <p>Phone: <a href="tel:+447587594158">+44 7587 594158</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/abdulvmwaregeek4u" target="_blank">linkedin.com/in/abdulvmwaregeek4u</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div>© <span id="year"></span> Abdul Rahman · Portfolio</div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
